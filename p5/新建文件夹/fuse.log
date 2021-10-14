@@ -1,0 +1,51 @@
+Running: D:\ISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe --nodebug --prj mips.prj -o mips.exe mips_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:\工作学习\学习资料\大二上\计组\p5\新建文件夹\ALU.v" into library work
+Analyzing Verilog file "D:\工作学习\学习资料\大二上\计组\p5\新建文件夹\cmp.v" into library work
+Analyzing Verilog file "D:\工作学习\学习资料\大二上\计组\p5\新建文件夹\ctrl.v" into library work
+Analyzing Verilog file "D:\工作学习\学习资料\大二上\计组\p5\新建文件夹\datapath.v" into library work
+Analyzing Verilog file "D:\工作学习\学习资料\大二上\计组\p5\新建文件夹\DM.v" into library work
+Analyzing Verilog file "D:\工作学习\学习资料\大二上\计组\p5\新建文件夹\D_REG.v" into library work
+Analyzing Verilog file "D:\工作学习\学习资料\大二上\计组\p5\新建文件夹\EXT.v" into library work
+Analyzing Verilog file "D:\工作学习\学习资料\大二上\计组\p5\新建文件夹\E_REG.v" into library work
+Analyzing Verilog file "D:\工作学习\学习资料\大二上\计组\p5\新建文件夹\GRF.v" into library work
+Analyzing Verilog file "D:\工作学习\学习资料\大二上\计组\p5\新建文件夹\heads.v" into library work
+Analyzing Verilog file "D:\工作学习\学习资料\大二上\计组\p5\新建文件夹\IM.v" into library work
+Analyzing Verilog file "D:\工作学习\学习资料\大二上\计组\p5\新建文件夹\mips.v" into library work
+Analyzing Verilog file "D:\工作学习\学习资料\大二上\计组\p5\新建文件夹\mips_tb.v" into library work
+Analyzing Verilog file "D:\工作学习\学习资料\大二上\计组\p5\新建文件夹\M_REG.v" into library work
+Analyzing Verilog file "D:\工作学习\学习资料\大二上\计组\p5\新建文件夹\NPC.v" into library work
+Analyzing Verilog file "D:\工作学习\学习资料\大二上\计组\p5\新建文件夹\stall.v" into library work
+Analyzing Verilog file "D:\工作学习\学习资料\大二上\计组\p5\新建文件夹\W_REG.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "D:\
+WARNING:HDLCompiler:1016 - "D:\
+WARNING:HDLCompiler:1016 - "D:\
+WARNING:HDLCompiler:1016 - "D:\
+Completed static elaboration
+Compiling module IM
+Compiling module D_REG
+Compiling module GRF_2
+Compiling module EXT
+Compiling module CMP
+Compiling module NPC
+Compiling module STALL
+Compiling module E_REG
+Compiling module ALU
+Compiling module M_REG
+Compiling module DM_2
+Compiling module W_REG
+Compiling module DATAPATH
+Compiling module CTRL
+Compiling module mips
+Compiling module mips_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 系统找不到指定的路径。, "isim\mips.exe.sim\libPortability.dll".
+Compiled 16 Verilog Units
+Built simulation executable mips.exe
+Fuse Memory Usage: 29780 KB
+Fuse CPU Usage: 468 ms
